@@ -1,4 +1,4 @@
-package com.nadxlib.footballteam;
+package com.nadxlib.psg;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.nadxlib.footballteam", appContext.getPackageName());
+        assertEquals("com.nadxlib.psg", appContext.getPackageName());
     }
 }

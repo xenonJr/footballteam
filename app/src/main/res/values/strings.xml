@@ -9,17 +9,22 @@
 
 
     <!--    App Info-->
-    <string name="app_name">Paris Saint Germain</string>
-    <string name="key">chelsea</string>
-    <string name="key_id">9q0arba2kbnywth8bkxlhgmdr</string>
+    <string name="app_name">FC Barcelona</string>
+    <string name="key">barcelona</string>
+    <string name="key_id">agh9ifb2mw3ivjusgedj7c3fe</string>
 
 
     <!--    Admob -->
-    <string name="Admobappid">FootballTeam</string>
+    <string name="banner_id">ca-app-pub-2176099645444197/3835377070</string>
+    <string name="admob_app_id">ca-app-pub-2176099645444197~3803393967</string>
+    <string name="inter_id">ca-app-pub-2176099645444197/2490312294</string>
 
 
     <!--    BdApps Info-->
-    <string name="APP_ID">FootballTeam</string>
+    <string name="appid">APP_032157</string>
+    <string name="keyword">fcbar</string>
+    <string name="ussd">12311</string>
+    <string name="longpass">b39c7c04a251da211f2349b7c64b22ef</string>
 
 
 </resources>

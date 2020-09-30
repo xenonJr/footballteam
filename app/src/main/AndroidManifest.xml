@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nadxlib.footballteam">
+    package="com.nadxlib.psg">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
-        android:icon="@drawable/psg"
+        android:icon="@drawable/barcelona"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WV"></activity>
-        <activity android:name=".DetailActivity" />
-        <activity android:name=".MainActivity">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id"/>
+        <activity android:name="com.nadxlib.psg.WV"></activity>
+        <activity android:name="com.nadxlib.psg.DetailActivity" />
+        <activity android:name="com.nadxlib.psg.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

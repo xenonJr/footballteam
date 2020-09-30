@@ -1,4 +1,4 @@
-package com.nadxlib.footballteam;
+package com.nadxlib.psg;
 
 import androidx.appcompat.app.AppCompatActivity;
 
