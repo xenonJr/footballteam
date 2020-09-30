@@ -1,0 +1,25 @@
+<resources>
+
+    <!--    App Components-->
+    <string name="conti_bt">Continue</string>
+    <string name="news_bt">News</string>
+    <string name="fix_bt">Fixture</string>
+    <string name="sta_bt">Standings</string>
+    <string name="tran_bt">Transfer News</string>
+
+
+    <!--    App Info-->
+    <string name="app_name">Paris Saint Germain</string>
+    <string name="key">chelsea</string>
+    <string name="key_id">9q0arba2kbnywth8bkxlhgmdr</string>
+
+
+    <!--    Admob -->
+    <string name="Admobappid">FootballTeam</string>
+
+
+    <!--    BdApps Info-->
+    <string name="APP_ID">FootballTeam</string>
+
+
+</resources>
