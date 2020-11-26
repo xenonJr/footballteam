@@ -1,4 +1,4 @@
-package com.nadxlib.psg;
+package com.nadxlib.mnu;
 
 import org.junit.Test;
 

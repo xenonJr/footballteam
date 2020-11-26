@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 29
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.nadxlib.psg"
+        applicationId "com.nadxlib.mnu"
         minSdkVersion 19
-        targetSdkVersion 30
-        versionCode 1
+        targetSdkVersion 29
+        versionCode 3
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -37,6 +37,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.github.smnadim21:bdapps:0.0.4'
-    implementation 'com.google.android.gms:play-services-ads:19.4.0'
+    implementation 'com.google.android.material:material:1.1.0'
 
 }

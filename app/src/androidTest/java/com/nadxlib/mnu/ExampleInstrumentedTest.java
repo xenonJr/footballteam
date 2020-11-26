@@ -1,4 +1,4 @@
-package com.nadxlib.psg;
+package com.nadxlib.mnu;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.nadxlib.psg", appContext.getPackageName());
+        assertEquals("com.nadxlib.mnu", appContext.getPackageName());
     }
 }

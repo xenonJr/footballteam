@@ -2,29 +2,32 @@
 
     <!--    App Components-->
     <string name="conti_bt">Continue</string>
-    <string name="news_bt">News</string>
-    <string name="fix_bt">Fixture</string>
-    <string name="sta_bt">Standings</string>
-    <string name="tran_bt">Transfer News</string>
+    <string name="news_bt">Baby and Toddler</string>
+    <string name="fix_bt">Shopping and Lifestyle</string>
+    <string name="sta_bt">Baby Name</string>
+    <string name="tran_bt">Blog</string>
 
 
     <!--    App Info-->
-    <string name="app_name">FC Barcelona</string>
-    <string name="key">barcelona</string>
-    <string name="key_id">agh9ifb2mw3ivjusgedj7c3fe</string>
+    <string name="app_name">Baby Care</string>
+    <string name="key">manchester-united</string>
+    <string name="key_id">6eqit8ye8aomdsrrq0hk3v7gh</string>
 
 
-    <!--    Admob -->
-    <string name="banner_id">ca-app-pub-2176099645444197/3835377070</string>
-    <string name="admob_app_id">ca-app-pub-2176099645444197~3803393967</string>
-    <string name="inter_id">ca-app-pub-2176099645444197/2490312294</string>
+    <!--    user dummy info-->
+    <string name="user_mail">user@gmail.com</string>
+    <string name="user_pass">123456</string>
 
+
+    <!--    Admin dummy info-->
+    <string name="admin_mail">admin@gmail.com</string>
+    <string name="admin_pass">654321</string>
 
     <!--    BdApps Info-->
-    <string name="appid">APP_032157</string>
-    <string name="keyword">fcbar</string>
-    <string name="ussd">12311</string>
-    <string name="longpass">b39c7c04a251da211f2349b7c64b22ef</string>
+    <string name="appid">APP_032260</string>
+    <string name="keyword">manu</string>
+    <string name="ussd">45812</string>
+    <string name="longpass">469b344f3e7a5de077a51462a72cad93</string>
 
 
 </resources>
