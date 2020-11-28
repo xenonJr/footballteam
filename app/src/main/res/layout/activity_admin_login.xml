@@ -74,7 +74,7 @@
                     android:id="@+id/et_password_edit_kt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textEmailAddress"
+                    android:inputType="textPassword"
                     android:textColor="@color/mainText"
                     android:maxLines="1" />
 
