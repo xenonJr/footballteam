@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "274819983702",
+    "firebase_url": "https://mother-and-baby-care-default-rtdb.firebaseio.com",
+    "project_id": "mother-and-baby-care",
+    "storage_bucket": "mother-and-baby-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274819983702:android:fecac9fb4b362a6dcacef7",
+        "android_client_info": {
+          "package_name": "com.nadxlib.mnu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274819983702-bqt8uuc58aidg5lhb6koqc2umtvs66l7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnQKyEhseh9jZPU8AzUyVAlQCtSp1PY4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274819983702-bqt8uuc58aidg5lhb6koqc2umtvs66l7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

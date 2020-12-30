@@ -1,4 +1,4 @@
-package com.nadxlib.mnu;
+package com.nadxlib.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,11 +9,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+
+public class LoginActivity extends AppCompatActivity {
 
     Button con , sign , admin ;
     EditText mail,pass;
-
+    private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         pass = findViewById(R.id.et_password_edit_kt);
         admin = findViewById(R.id.button3);
 
+        mAuth = FirebaseAuth.getInstance();
 
 
 
@@ -34,13 +39,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String m = mail.getText().toString();
                 String p = pass.getText().toString();
-                Toast.makeText(getApplicationContext(),m,Toast.LENGTH_LONG).show();
-                if( m.matches(getString(R.string.user_mail))  && p.matches(getString(R.string.user_pass))  ){
-                    startActivity(new Intent(getApplicationContext(),DetailActivity.class));
-                }
-                else{
-                    Toast.makeText(getApplicationContext(),"Wrong email or Password",Toast.LENGTH_LONG).show();
-                }
+
+                mAuth.signInWithEmailAndPassword(m,p).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                    @Override
+                    public void onSuccess(AuthResult authResult) {
+                        startActivity(new Intent(getApplicationContext(),DetailActivity.class));
+                    }
+                });
+
 
             }
         });
@@ -62,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+
 
 
 }

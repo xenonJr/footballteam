@@ -1,4 +1,4 @@
-package com.nadxlib.mnu;
+package com.nadxlib.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
