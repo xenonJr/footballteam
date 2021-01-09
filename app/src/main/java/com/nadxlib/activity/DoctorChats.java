@@ -1,4 +1,4 @@
-package com.nadxlib.chatOption;
+package com.nadxlib.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,23 +6,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.text.format.DateFormat;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.github.library.bubbleview.BubbleTextView;
-import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.android.gms.tasks.Tasks;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -32,8 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.SetOptions;
-import com.nadxlib.activity.R;
+import com.nadxlib.chatOption.ChatAdapter;
 import com.nadxlib.model.Patient;
 import com.nadxlib.model.SingleChatMassage;
 
@@ -43,8 +31,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-public class ChatScreen extends AppCompatActivity {
-
+public class DoctorChats extends AppCompatActivity {
 
     DatabaseReference databaseReference;
     FirebaseFirestore firebaseFirestore;
@@ -58,23 +45,18 @@ public class ChatScreen extends AppCompatActivity {
 
     RecyclerView recyclerView;
     ChatAdapter myAdapter;
-
+    String uiD;
     EditText massage;
     ImageView submit_button;
-
-    RelativeLayout relativeLayout;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.new_chat_layout);
-
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseFirestore = FirebaseFirestore.getInstance();
         documentReference = firebaseFirestore.collection("users").document(firebaseAuth.getCurrentUser().getUid());
         documentReference2 = firebaseFirestore.collection("chats").document(firebaseAuth.getCurrentUser().getUid());
-
+        uiD = getIntent().getStringExtra("uid");
 
         currentDate = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());
         currentTime = new SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(new Date());
@@ -84,11 +66,10 @@ public class ChatScreen extends AppCompatActivity {
         submit_button = findViewById(R.id.submit_button);
 
 
-         recyclerView = findViewById(R.id.list_of_message);
+        recyclerView = findViewById(R.id.list_of_message);
 
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
         final Patient[] user = new Patient[1];
         documentReference.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
@@ -111,7 +92,7 @@ public class ChatScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 SingleChatMassage singleChatMassage = new SingleChatMassage(name,massage.getText().toString(),currentDate,currentTime);
-                FirebaseDatabase.getInstance().getReference("chats").child(firebaseAuth.getCurrentUser().getUid()).child(String.valueOf(System.currentTimeMillis())).setValue(singleChatMassage);
+                FirebaseDatabase.getInstance().getReference("chats").child(uiD).child(String.valueOf(System.currentTimeMillis())).setValue(singleChatMassage);
                 UpdateChatList();
             }
         });
@@ -119,7 +100,7 @@ public class ChatScreen extends AppCompatActivity {
     }
 
     private void UpdateChatList() {
-        FirebaseDatabase.getInstance().getReference("chats").child(firebaseAuth.getCurrentUser().getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+        FirebaseDatabase.getInstance().getReference("chats").child(uiD).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 List<SingleChatMassage> l = new ArrayList<>();
@@ -148,6 +129,4 @@ public class ChatScreen extends AppCompatActivity {
         });
 
     }
-
-
 }
