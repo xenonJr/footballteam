@@ -35,7 +35,7 @@ public class SignUp extends AppCompatActivity {
     private FirebaseAuth me;
     DatabaseReference databaseReference;
 
-    String uid;
+    String uid,target;
     Button signup;
     FirebaseFirestore firebaseFirestore;
 
@@ -50,7 +50,7 @@ public class SignUp extends AppCompatActivity {
         Lname =findViewById(R.id.et_last_name_edit_kt);
         email = findViewById(R.id.et_email_edit_kt);
         signup = findViewById(R.id.btn_update_edit_info);
-
+        target = getIntent().getStringExtra("target");
         mAuth = FirebaseAuth.getInstance();
         firebaseFirestore = FirebaseFirestore.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference();
@@ -99,8 +99,7 @@ public class SignUp extends AppCompatActivity {
                 //  p.setVisibility(View.GONE);
                 if (task.isSuccessful()) {
                     uid = mAuth.getCurrentUser().getUid();
-                    DocumentReference documentReference = firebaseFirestore.collection("users").document(uid);
-                   // DocumentReference documentReference2 = firebaseFirestore.collection("chats").document(mAuth.getCurrentUser().getUid());
+                    DocumentReference documentReference = firebaseFirestore.collection(target).document(uid);
                     documentReference.set(Dprofile).addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override
                         public void onSuccess(Void aVoid) {

@@ -12,17 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DoctorChats"></activity>
+        <activity android:name=".DeiseasesActivity"></activity>
+        <activity android:name=".DoctorChats" />
         <activity android:name=".DoctorInbox" />
         <activity android:name="com.nadxlib.chatOption.ChatScreen" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".home" />
+        <activity android:name=".AdminHome" />
         <activity android:name=".AdminLogin" />
         <activity android:name=".BabyToddlerActivity" />
         <activity android:name=".SignUp" />
         <activity android:name=".WV" />
         <activity android:name=".DetailActivity" />
-        <activity android:name=".AdminHome">
+        <activity android:name=".home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

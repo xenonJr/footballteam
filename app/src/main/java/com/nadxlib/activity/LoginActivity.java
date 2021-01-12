@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
         admin = findViewById(R.id.button3);
 
         mAuth = FirebaseAuth.getInstance();
-
+        String tag = getIntent().getStringExtra("tag");
 
 
         con.setOnClickListener(new View.OnClickListener() {
@@ -43,7 +43,13 @@ public class LoginActivity extends AppCompatActivity {
                 mAuth.signInWithEmailAndPassword(m,p).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                     @Override
                     public void onSuccess(AuthResult authResult) {
-                        startActivity(new Intent(getApplicationContext(),DetailActivity.class));
+                        if(tag.equals("user"))
+                        {
+                            startActivity(new Intent(getApplicationContext(),DetailActivity.class));
+                        }if(tag.equals("doc")){
+                            startActivity(new Intent(getApplicationContext(),AdminHome.class));
+                        }
+
                     }
                 });
 
@@ -55,7 +61,9 @@ public class LoginActivity extends AppCompatActivity {
         sign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),SignUp.class));
+                Intent intent = new Intent(getApplicationContext(),SignUp.class);
+                intent.putExtra("target","users");
+                startActivity(intent);
             }
         });
 

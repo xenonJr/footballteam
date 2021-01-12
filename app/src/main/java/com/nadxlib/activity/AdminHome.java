@@ -26,7 +26,9 @@ public class AdminHome extends AppCompatActivity {
         message.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),DoctorInbox.class));
+                Intent intent = new Intent(getApplicationContext(),DoctorInbox.class);
+                intent.putExtra("tag","doctors");
+                startActivity(intent);
             }
         });
     }

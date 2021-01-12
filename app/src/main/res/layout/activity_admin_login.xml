@@ -120,6 +120,23 @@
         android:layout_height="56dp"
         android:layout_marginTop="36dp"
         android:backgroundTint="@color/mainText"
+        android:text="Admin Sign Up"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nestedScrollView"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="218dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/mainText"
         android:text="Go To User Panel"
         android:textAllCaps="false"
         android:textColor="@color/colorPrimaryDark"

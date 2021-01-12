@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class AdminLogin extends AppCompatActivity {
 
-    Button con , sign , admin ;
+    Button con , sign , admin ,aSignup ;
     EditText mail,pass;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class AdminLogin extends AppCompatActivity {
         mail = findViewById(R.id.et_email_edit_kt);
         pass = findViewById(R.id.et_password_edit_kt);
         admin = findViewById(R.id.button3);
-
+        aSignup = findViewById(R.id.button3);
 
         con.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +44,15 @@ public class AdminLogin extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+            }
+        });
+
+        aSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),SignUp.class);
+                intent.putExtra("target","doctors");
+                startActivity(intent);
             }
         });
 

@@ -30,4 +30,66 @@
     <string name="longpass">469b344f3e7a5de077a51462a72cad93</string>
 
 
+
+
+    <string-array name="WomensHealthStatement">
+<item> Heart disease: \n Heart disease is the leading killer for both men and women. Women tend to be under-diagnosed to the point it’s too late to help them once the condition is discovered. Many studies also suggest that in women the symptoms may just not be chest pain. Symptoms like jaw pain, shoulder pain, nausea, or shortness of breath should also be looked at.
+\n\n Symptoms: Chest pain, jaw pain, shoulder pain, nausea, shortness of breath.
+\n\n Prevention: Women can reduce their risk of heart disease by modifying lifestyle to include a well-balanced diet and exercise.
+</item>
+        <item> Breast cancer:\n Breast cancer is the most common cancer in women. In breast cancer, the cancer begins in the tissues of the breasts. The cancer cells may form a tumor. (Note: Not all tumors are cancerous.)
+\n\n Symptoms: A lump in or near a breast or in your arm, thick or firm tissue in or near your breast or under your arm, a change in size or shape of your breast.
+\n\n Prevention: Weight management. Eat lean protein, whole grains and choose vegetable oil over animal fat. Exercise for at least 30 minutes daily, drink little or no alcohol, don’t smoke. If you have recently given birth then breast-feed your baby for as long as possible. Get regular breast cancer screenings.
+</item>
+        <item> Autoimmune diseases:\n Autoimmune diseases are a group of disorders in which the immune system attacks the body and destroys or alters tissues. There are more than 80 serious chronic illnesses in this category, including lupus, multiple sclerosis, and type-1 diabetes.
+According to the American Autoimmune Related Diseases Association (AARDA), about 75 per cent of autoimmune diseases occur in women. These diseases are not very common, except for diabetes, thyroid disease, and lupus, but as a group, the disorders make up the fourth-largest cause of disability among American women.
+\n\n Symptoms: Some of the common autoimmune diseases are rheumatoid arthritis – inflammation of joints and surrounding tissues. Systemic lupus erythematosus – affects skin, joints, kidneys, brain, and other organs. Multiple sclerosis – affects the brain and spinal cord. Celiac sprue disease – a reaction to gluten (found in wheat, rye, and barley) that causes damage to the lining of the small intestine.
+\n\n Prevention: Take immune-balancing nutrients and supplements, including vitamin D, essential fats (like EPA/DHA and GLA), and probiotics. Practice deep relaxation daily through yoga, meditation, or anything that reverses the stress response. Keep a strict check on your weight.
+</item>
+
+        <item> Osteoporosis: It is a condition in which bone density decreases. It occurs in both men and women. Overall, however, it is more of a major health concern for women. Some studies say that as many as one of every two women over 50 suffer a fracture related to osteoporosis in their lifetime.
+\n\n Symptoms: Back pain, caused by a fractured or collapsed vertebrae, loss of height over time, a stooped posture, a bone fracture that occurs much more easily than expected.
+\n\n Prevention: Three factors essential for keeping your bones stronger are:  adequate calcium, adequate vitamin D, and regular exercise.
+</item>
+        <item> Melanoma: \n Melanoma is a cancer that develops in melanocytes, the pigment cells present in the skin. It can be more serious than the other forms of skin cancer because it may spread to other parts of the body (metastasize) and cause serious illness and death. Melanoma can develop in an existing mole or any other mark on the skin, but it often develops in unmarked skin. Although melanoma can grow anywhere on the body, it often occurs on the upper back of men and women and on the legs in women.
+\n\n Symptoms: Elevation, such as thickening or raising of a previously flat mole. Surface, such as scaling, erosion, oozing, bleeding, or crusting. Sensation, such as itching, tingling, or burning. Consistency, such as softening or small pieces that break off easily (friability).
+\n\n Prevention: Stay out of the sun during the midday hours. Use a sunscreen every day with an SPF of at least 15. Look for a sunscreen that protects against both types of ultraviolet radiation in the sun’s rays-UVA and UVB. Avoid sunbathing and tanning salons. Studies suggest that your risk of melanoma increases by 75 per cent if you start using artificial tanning before you are 30 years old.
+</item>
+        <item> Type-2 diabetes: \n Diabetes is a disease that involves problems with the hormone insulin. While not everyone with type-2 diabetes is overweight, obesity and lack of physical activity are two of the most common causes of this form of diabetes.
+\n\n Symptoms: Increased urination, excessive thirst. Weight loss, hunger, skin problems, Fatigue and irritability.
+\n\n Prevention: Maintain your weight, exercise daily, consume a healthy diet, and avoid smoking and drinking alcohol.
+</item>
+        <item> Blood pressure: \n The only way to know if your blood pressure is high is through regular checkups. This is especially important if you have a close relative who has high blood pressure.
+\n Symptoms: Severe headache, fatigue, vision problems, chest pain, difficulty breathing, blood in the urine and pounding in the chest, neck or ears.
+\n Prevention: Maintaining healthy weight, getting regular exercise, reducing salt intake, drinking alcohol in moderation, if at all, reduce stress.
+</item>
+        <item> Depression: \n Feeling depressed is a normal reaction to loss, life’s struggles, or an injured self-esteem.
+\n\n Symptoms: Difficulty concentrating, remembering details, and making decisions. Fatigue and decreased energy. Feelings of guilt, worthlessness, and/or helplessness. Feelings of hopelessness and/or pessimism. Insomnia, early-morning wakefulness, or excessive sleeping. Irritability, restlessness. Loss of interest in activities or hobbies. Overeating or appetite loss.
+\n\n Prevention: Eating a healthy diet, getting regular exercise, and taking time out for fun and relaxation may work together to prevent a depressed mood.
+ </item>
+        <item> Alzheimer’s disease: \n A progressive mental deterioration that can occur in middle or old age, due to generalized degeneration of the brain. It is the commonest cause of premature senility.
+\n\n Symptom: Increasing forgetfulness or mild confusion.
+\n\n Prevention: Regular exercise. Healthy diet. Mental stimulation. Quality sleep. Stress management. An active social life.
+</item>
+        <item> Menopause: \n Menopause is defined as the point in time when menstrual cycles permanently cease due to the natural depletion of ovarian oocytes from aging. Menopause is a natural part of a woman’s life cycle and cannot be prevented.
+\n\n Symptoms: Irregular periods, hot flashes, night sweats, sleep difficulties, and irritability.
+\n \nPrevent complications: Get your blood pressure checked every two years, maintain a normal blood pressure. Eat right and exercise regularly.
+</item>
+    </string-array>
+
+
+    <string-array name="dname">
+        <item>Heart disease</item>
+        <item>Breast cancer</item>
+        <item>Autoimmune diseases</item>
+        <item>Osteoporosis</item>
+        <item>Melanoma</item>
+        <item>Type-2 diabetes</item>
+        <item>Blood Pressure</item>
+        <item>Depression</item>
+        <item>Alzheimer’s disease</item>
+        <item>Menopause</item>
+    </string-array>
+
+
 </resources>

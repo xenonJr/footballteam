@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -34,7 +35,6 @@ public class PatientAdapter extends  RecyclerView.Adapter<PatientAdapter.ViewHol
     }
 
 
-
     @NonNull
     @Override
     public PatientAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -48,16 +48,16 @@ public class PatientAdapter extends  RecyclerView.Adapter<PatientAdapter.ViewHol
     public void onBindViewHolder(@NonNull PatientAdapter.ViewHolder holder, int position) {
         Log.d("msg","i am here 2");
         holder.m_sender.setText(singleChatMassage.get(position));
-        holder.m_sender.setOnClickListener(new View.OnClickListener() {
+        holder.send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, DoctorChats.class);
                 intent.putExtra("uid",ids.get(position));
+                intent.putExtra("tag","doctors");
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }
         });
-
 
     }
 
@@ -69,11 +69,15 @@ public class PatientAdapter extends  RecyclerView.Adapter<PatientAdapter.ViewHol
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView m_sender;
-
+        ImageView send, user;
         BubbleTextView m;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             m_sender = itemView.findViewById(R.id.textView);
+            send = itemView.findViewById(R.id.imageView7);
+            send.setImageResource(R.drawable.send_message);
+            user = itemView.findViewById(R.id.imageView6);
+            user.setImageResource(R.drawable.patient);
 
 
         }

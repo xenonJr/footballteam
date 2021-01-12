@@ -22,17 +22,18 @@ public class home extends AppCompatActivity {
         user.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-
-                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                intent.putExtra("tag","user");
+                startActivity(intent);
             }
         });
 
         admin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),AdminLogin.class));
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                intent.putExtra("tag","doc");
+                startActivity(intent);
             }
         });
     }

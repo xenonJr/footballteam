@@ -34,7 +34,12 @@ public class DetailActivity extends AppCompatActivity implements SubscriptionSta
 
 
 
-
+        womanHealth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),DeiseasesActivity.class));
+            }
+        });
 
 
          // button actions
@@ -48,27 +53,24 @@ public class DetailActivity extends AppCompatActivity implements SubscriptionSta
             }
         });
 
-        womanHealth.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(DetailActivity.this, WV.class);
-                intent.putExtra("name", womanHealth.getText().toString());
-                intent.putExtra("url", backuplink);
-                startActivity(intent);
-            }
-        });
+
 
         babyName.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(DetailActivity.this, WV.class);
+                intent.putExtra("name", babyTodd.getText().toString());
+                intent.putExtra("url", "https://www.shutterfly.com/ideas/baby-name-generator/");
+                startActivity(intent);
             }
         });
 
         contractDoctor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), ChatScreen.class));
+                Intent intent = new Intent(getApplicationContext(), ChatScreen.class);
+                intent.putExtra("tag","users");
+                startActivity(intent);
             }
         });
 
