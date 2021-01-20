@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -42,6 +44,7 @@ public class DoctorChats extends AppCompatActivity {
     String currentDate;
     String currentTime;
     String name;
+    String mail;
 
     RecyclerView recyclerView;
     ChatAdapter myAdapter;
@@ -51,7 +54,7 @@ public class DoctorChats extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.new_chat_layout);
+        setContentView(R.layout.newchat);
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseFirestore = FirebaseFirestore.getInstance();
         String me = getIntent().getStringExtra("tag");
@@ -68,6 +71,21 @@ public class DoctorChats extends AppCompatActivity {
 
 
         recyclerView = findViewById(R.id.list_of_message);
+        ImageView pres = findViewById(R.id.prescription);
+        pres.setVisibility(View.VISIBLE);
+        pres.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("email",mail);
+                Intent intent = new Intent(Intent.ACTION_SENDTO);
+                intent.setData(Uri.parse("mailto:"+mail)); // only email apps should handle this
+                intent.putExtra(Intent.EXTRA_EMAIL, mail);
+                intent.putExtra(Intent.EXTRA_SUBJECT, "Your Prescription");
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intent);
+                }
+            }
+        });
 
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -77,18 +95,13 @@ public class DoctorChats extends AppCompatActivity {
             public void onSuccess(DocumentSnapshot documentSnapshot) {
                 user[0] = documentSnapshot.toObject(Patient.class);
                 name = user[0].getFirstName()+ " "+ user[0].getLastName();
-
+                mail = user[0].getEmail();
             }
         });
 
 
         UpdateChatList();
-
-
-
-
-
-
+        
         submit_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

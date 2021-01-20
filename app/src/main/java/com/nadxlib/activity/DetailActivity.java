@@ -29,8 +29,11 @@ public class DetailActivity extends AppCompatActivity implements SubscriptionSta
         contractDoctor = findViewById(R.id.contactDoctor);
 
 
-        final String backuplink = "https://www.goal.com/en-in/team/";
+        final String backuplink = "https://patient.info/doctor/pregnancy-due-date-calculator";
         String link_tran_news = "https://www.goal.com/en-in/transfer-news";
+
+
+
 
 
 
@@ -47,7 +50,7 @@ public class DetailActivity extends AppCompatActivity implements SubscriptionSta
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(DetailActivity.this, WV.class);
-                intent.putExtra("name", babyTodd.getText().toString());
+                intent.putExtra("name", "Pregnancy Calculator");
                 intent.putExtra("url", backuplink);
                 startActivity(intent);
             }
