@@ -31,7 +31,7 @@
                 android:background="@color/mainBackground"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
-                android:text="Admin Panel"
+                android:text="Mother and Baby Health Care "
                 android:textColor="@color/colorActivityBackground"
                 android:textSize="20sp" />
         </LinearLayout>

@@ -70,7 +70,7 @@
         android:layout_height="67dp"
         android:layout_marginBottom="148dp"
         android:background="@color/White"
-        android:text="Admin Panel"
+        android:text="Doctor Panel"
         android:textAllCaps="false"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"

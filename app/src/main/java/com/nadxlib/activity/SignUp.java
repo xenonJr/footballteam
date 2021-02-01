@@ -111,11 +111,8 @@ public class SignUp extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(),"Data input Not Succefull"+e,Toast.LENGTH_SHORT).show();
                         }
                     });
-
-
-
                     finish();
-                    Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), home.class);
                     // intent.putExtra(MainActivity.EMAIL,pass);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);

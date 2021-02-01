@@ -131,6 +131,7 @@
     </androidx.core.widget.NestedScrollView>
 
     <Button
+        android:visibility="gone"
         android:textColor="@color/colorPrimaryDark"
         android:backgroundTint="@color/mainText"
         android:id="@+id/button3"
