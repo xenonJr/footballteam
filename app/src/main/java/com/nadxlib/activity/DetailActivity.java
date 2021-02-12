@@ -27,6 +27,8 @@ public class DetailActivity extends AppCompatActivity implements SubscriptionSta
         womanHealth = findViewById(R.id.womanHealth);
         babyName = findViewById(R.id.babyName);
         contractDoctor = findViewById(R.id.contactDoctor);
+        Button pmc = findViewById(R.id.pmc);
+        Button nbc = findViewById(R.id.nbc);
 
 
         final String backuplink = "https://patient.info/doctor/pregnancy-due-date-calculator";
@@ -34,6 +36,19 @@ public class DetailActivity extends AppCompatActivity implements SubscriptionSta
 
 
 
+        pmc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),PMC.class));
+            }
+        });
+
+        nbc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),NewBornCare.class));
+            }
+        });
 
 
 

@@ -30,8 +30,6 @@
     <string name="longpass">469b344f3e7a5de077a51462a72cad93</string>
 
 
-
-
     <string-array name="WomensHealthStatement">
 <item> Heart disease: \n Heart disease is the leading killer for both men and women. Women tend to be under-diagnosed to the point it’s too late to help them once the condition is discovered. Many studies also suggest that in women the symptoms may just not be chest pain. Symptoms like jaw pain, shoulder pain, nausea, or shortness of breath should also be looked at.
 \n\n Symptoms: Chest pain, jaw pain, shoulder pain, nausea, shortness of breath.
@@ -78,6 +76,105 @@ According to the American Autoimmune Related Diseases Association (AARDA), about
     </string-array>
 
 
+    <string-array name="PregnantMotherCare">
+<item>
+•	Schedule an appointment with your doctor as soon as you find out you’re pregnant. Your doctor will start by reviewing your medical history. He or she also will want to know about your symptoms. During this first appointment, urine and blood samples will be taken. (These will also be taken again on later visits.) Urine tests check for bacteria, high sugar levels (which can be a sign of diabetes), and high protein levels (which can be a sign for preeclampsia, a type of high blood pressure during pregnancy). Blood tests check for blood cell count, blood type, low iron levels (anemia) and infectious diseases (such as syphilis, HIV, and hepatitis).
+•	The doctor also may do other tests at your first visit. These may vary based on your background and risk for problems. Tests can include:
+•	A pelvic exam to check the size and shape of your uterus (womb).
+•	A Pap smear to screen for cervical cancer.
+•	An ultrasound to view your baby’s growth and position. An ultrasound uses sound waves to create an image of your baby on a video screen.
+•	After your first visit, you will have a prenatal visit every 4 weeks. In months 7 and 8, you will have a visit every 2 weeks. In your last month of pregnancy, the visits will occur weekly until you deliver your baby. At each visit, the doctor will check your weight and blood pressure and test your urine. The doctor will listen to your baby’s heartbeat and measure the height of your uterus after the 20th week. You should always discuss any issues or concerns you have with your doctor.
+</item>
+
+        <item>
+
+Talk to your doctor about this. It’s different for everyone, but most women should gain about 25 to 30 pounds. If you’re underweight when you get pregnant, you may need to gain more. If you are overweight, you may need to gain less.
+</item>
+
+
+        <item>
+
+•	Eating a balanced diet is one of the best things you can do for yourself and your baby. Be careful of the following foods and drinks during pregnancy.
+•	Raw meat, eggs, and fish: Food that isn’t fully cooked can put you at risk for food poisoning. Don’t eat more than 2 or 3 servings of fish per week (including canned fish). Don’t eat shark, swordfish, king mackerel, or tilefish. These fish have high levels of mercury, which can harm your baby. If you eat tuna, make sure it’s light tuna. Don’t eat more than 6 ounces of albacore tuna and tuna steaks per week. It’s safe to have 12 ounces of canned light tuna per week.
+•	Fruit and vegetables: Wash all produce before eating it. Keep cutting boards and dishes clean.
+•	Eat 4 or more servings of dairy each day. This will give you enough calcium for you and your baby. Don’t drink unpasteurized milk or eat unpasteurized milk products. These may have bacteria that can cause infections. This includes soft cheeses such as Brie, feta, Camembert, and blue cheese, or Mexican-style cheeses, such as queso fresco.
+
+•	Sugar substitutes: Some artificial sweeteners are okay in moderation. These include aspartame (brand names: Equal or NutraSweet) and sucralose (brand name: Splenda). However, if you have phenylketonuria (PKU), avoid aspartame.
+•	Don’t drink more than 1 or 2 cups of coffee or other drinks with caffeine each day.
+</item>
+
+        <item>
+
+Check with your doctor before taking any medicine. This includes prescriptions, pain relievers, and over-the-counter medicines. Some medicines can cause birth defects, especially if taken during the first 3 months of pregnancy.
+</item>
+
+        <item>
+•	Pregnant women should take at least 400 micrograms (mcg) of folic acid each day. It can help prevent problems with your baby’s brain and spine. Ask your doctor if you need more than 400 mcg.
+•	It’s best to start taking folic acid before you get pregnant. You can get folic acid from taking a prenatal vitamin. You should take this every day. Don’t take other vitamins or supplements without your doctor’s approval.
+</item>
+
+        <item>
+•	How late you work in pregnancy varies for each person. Your job and work environment play a big role. For instance, jobs that involve radiation, lead and other materials—such as copper and mercury—can be harmful to your baby. If your job is active, you may not be able to work as long. Desk jobs aren’t thought to cause harm to your baby. However, you should not rest a computer on your stomach or uterus.
+•	Your overall health also plays a part in how long you work. If you’re at risk of certain issues or preterm labor, you may be on bed rest and not able to work.
+</item>
+
+        <item>
+•	Unless you have issues during pregnancy, you should get regular exercise. Exercise promotes a healthy lifestyle and can help ease discomfort. Try to get at least 30 minutes of exercise each day. Talk to your doctor about any conditions that may prevent exercise.
+•	Some women say exercising while pregnant makes labor and delivery easier. Walking and swimming are great choices. If you were active before pregnancy, it is probably safe to continue. If you weren’t active before pregnancy, start slowly. Listen to your body and don’t overdo it. Drink plenty of water to prevent overheating or dehydration, especially in the second trimester. It’s best to avoid exercises that may cause you to fall. This includes skiing and rock climbing. You also should avoid contact sports, such as soccer or basketball. Ask your doctor if you have any concerns.
+•	Call your doctor if you have symptoms with exercise, such as:
+blurred vision, dizziness, chest pain, stomach pain
+</item>
+
+        <item>
+It’s safe to have sex while you’re pregnant. However, talk to your doctor if you have concerns or are at risk for problems. Some women’s level of interest in sex changes when they’re pregnant. As you grow, you may need to try different positions, such as lying on your side or being on top.
+</item>
+
+        <item>
+    Below are common side effects of pregnancy with tips on how to manage them.
+    •	Morning sickness: Nausea or vomiting may strike anytime during the day (or night). Try eating frequent, small meals. Avoid foods that are greasy, spicy, or acidic. Some women are more nauseous when their stomach is empty. Keep crackers nearby to prevent an empty stomach. Talk to your doctor if morning sickness causes you to lose weight or lasts past the first 3 months of pregnancy.
+    •	Tiredness: Fatigue is common when you’re pregnant. Try to get enough rest or take naps if possible. Talk to your doctor if you have symptoms with fatigue. You may have anemia.
+    •	Leg cramps: Being active can help reduce leg cramps. Stretch the calf of your leg by flexing your foot toward your knee. Also stay hydrated by drinking lots of water.
+    •	Constipation: Drink plenty of fluids. Eat foods with lots of fiber, such as fruits, vegetables, and bran cereal. Don’t take laxatives without talking to your doctor first. Stool softeners may be safer than laxatives.
+    •	Hemorrhoids: Try to avoid becoming constipated. Don’t strain during bowel movements. Clean yourself well after a bowel movement. Wet wipes may feel better than toilet paper. Take warm soaks (sitz baths) if necessary.
+    •	Urinating more often: You may need to urinate more often when you are pregnant. Changing hormones can be a factor. Also, as your baby grows, he or she will put pressure on your bladder.
+    •	Varicose veins: Avoid clothing that fits tightly around your waist or legs. Rest and put your feet up as much as you can. Avoid sitting or standing still for long periods. Ask your doctor about support or compression hose. These can help prevent or ease varicose veins.
+    •	Moodiness: Your hormones are on a roller coaster ride during pregnancy. Your whole life is changing. Don’t be too hard on yourself. Get help right away if you feel sad or think about suicide.
+    •	Heartburn: Eat frequent, small meals. Avoid spicy, greasy, or acidic foods. Don’t lie down right after eating. Ask your doctor about taking antacids.
+    •	Yeast infections: The amount of discharge from your vagina can increase during pregnancy. Yeast infections, which can cause discharge, are common as well. Talk to your doctor if you see any unusual discharge or if it has an odor.
+    •	Bleeding gums: Brush and floss regularly. See your dentist for cleanings. Don’t avoid dental visits because you’re pregnant. Just be sure to tell your dentist you’re pregnant.
+    •	Stuffy nose: Changes in the levels of the female hormone estrogen can cause a stuffy nose. You may also have nosebleeds.
+    •	Edema (retaining fluid): Rest with your legs up as much as you can. Lie on your left side while sleeping. This position helps blood flow from your legs back to your heart better. Don’t use diuretics (water pills).
+    •	Skin changes: Stretch marks appear as red marks on your skin. Lotion with shea butter can help keep your skin moist and reduce itchy, dry skin. Stretch marks can’t be avoided. They do often fade after pregnancy.
+    You may have other skin changes. These can include darkening of the skin on your face or around your nipples. Some women get a dark line below their belly button. Try to stay out of the sun or use sunscreen to help lessen these marks. Most marks will fade after pregnancy.
+</item>
+
+
+        <item>
+•	What medicines can I take during pregnancy?
+•	When should I start taking a prenatal vitamin? What kind is best?
+•	How much folic acid do I need to take each day?
+•	How can I prevent or reduce swelling?
+•	How much weight should I gain while pregnant?
+
+</item>
+
+    </string-array>
+
+
+    <string-array name="pmc">
+        <item>Path to improved health</item>
+        <item>How much weight should I gain during pregnancy?</item>
+        <item> What should I eat?</item>
+        <item>Can I take medicine?</item>
+        <item>Can I take vitamins?</item>
+        <item>What about exercise?</item>
+        <item>Can I have sex?</item>
+        <item>What can I do to feel better?</item>
+        <item>Things to consider</item>
+        <item> Questions to ask your doctor</item>
+    </string-array>
+
+
     <string-array name="dname">
         <item>Heart disease</item>
         <item>Breast cancer</item>
@@ -89,6 +186,50 @@ According to the American Autoimmune Related Diseases Association (AARDA), about
         <item>Depression</item>
         <item>Alzheimer’s disease</item>
         <item>Menopause</item>
+    </string-array>
+
+
+    <string-array name="NewBornBabyCare">
+<item>   It is very important to feed the baby on time. A newborn has to be fed every 2 to 3 hours, which means you need to nurse her 8-12 times in 24 hours. An infant should be fed only breast milk for the first 6 months. Breast milk contains vital nutrients and antibodies that are required for a baby’s survival and growth. Nurse the baby for 10 minutes at least. Hold the breast near your baby’s lips until she latches on firmly and starts sucking. If the baby has latched on correctly, the mother will not experience any pain in her nipples. The breast should feel less full once the baby is done the feeding. This is an indication that the baby is getting enough milk. In case breast milk is not an option, feed the baby with a doctor-recommended formula. The baby should get 60 to 90 ml of formula per feeding.
+</item>
+        <item> Once the baby is fed, she needs to be burped. Babies swallow air while feeding, which causes gas and colic in their tummies. Burping expels this excess air, thus aiding in digestion and preventing spit-ups and stomach colic. Gently hold the baby against your chest with one hand. Her chin should rest on your shoulder. Pat or stroke her back very gently with your other hand until she burps. </item>
+
+        <item> It is very important to ensure that you are supporting your baby’s head and neck with one hand while holding her. This is because her neck muscles are not yet strong enough to hold up the head independently. The backbone is also still growing and becoming stronger. The neck will be able to support the head on its own only after 3 months of age. So pay attention to supporting your baby’s head and neck while taking care of a newborn baby. </item>
+
+
+        <item>
+ An important aspect of newborn baby care in the 1st month is caring for the umbilical cord stump. Give bath 2-6 hours after birth with lukewarm water in a healthy newborn. Keep the navel area clean and dry. Keep the baby’s diaper folded down so that the stump can dry. Disinfect your hands before handling the navel area. To clean, use a damp cloth and dry with a clean, absorbent cloth. Look out for signs of infection in the cord-stump area. If there is redness, swelling, smelly discharge or pus, and bleeding in the navel area, take the baby to a paediatrician. </item>
+        <item>
+ Changing diapers frequently is an important aspect when taking care of a newborn baby after delivery. If your baby is getting sufficient breast milk or formula, she will wet at least 6 to 8 diapers in a day, along with regular bowel movements. Change her diaper frequently, as soon as it feels full. You may even have to change it at least 10 times a day. To change a dirty diaper, you will need a changing sheet, gentle diaper wipes, diaper rash cream or baby powder and fresh diapers. In order to prevent UTI, wipe your baby girl from front to back rather than back to front. And let your baby remain without a diaper for a few hours each day. </item>
+
+        <item> Bathing a newborn is a delicate task. The bath is usually given 2-6 hours after birth in a healthy term baby weighing more than 2500 g. However, bathing can be delayed in certain situations such as winter. In a low birth weight infant, bathing should be delayed until the cord has fallen off. You should start bathing the baby 2 to 3 times a week after the cord stump dries and falls off. Make sure you have all the bathing and changing supplies ready before you take the baby for a bath. Bath time just before bedtime helps babies sleep more soundly. You will need an infant bathtub, lukewarm water, mild baby soap or body wash, a washcloth, soft towel, baby lotion or cream, new diaper, and fresh baby clothes. Get your partner or a family member to help, so that one person can hold the baby’s neck and head above the water while the other bathes the baby. Use soap sparingly. Clean the baby’s genitals, scalp, hair, neck, face, and any dried mucous that has collected around the nose with the washcloth. Rinse your baby’s body with lukewarm water. Once this is done, dry the baby’s body with a soft towel, apply lotion and put on a fresh diaper and baby clothes. </item>
+
+        <item>
+ Massaging is a great way to bond with your baby. It also helps in soothing the baby to sleep and in improving blood circulation and digestion. Spread a small quantity of baby oil or lotion on your hands. Next, gently and rhythmically stroke her body. Maintain eye contact with the baby and talk to her when massaging her body. A good time to massage the baby is before her bath. </item>
+
+        <item>
+ There are a few things to keep in mind when playing with your baby. Never shake your baby as her internal organs are delicate and can be damaged by vigorous shaking. Do not throw the baby up into the air, as this can be dangerous. Always disinfect or wash your hands before handling the baby, as their immune systems are not fully developed, and they are vulnerable to infections. Ensure that your baby is fastened securely in a stroller, car seat, or baby carrier if you are taking her out. Make your baby lie on her tummy every day for a short while. This will make her neck and back muscles stronger. It will also improve her vision, as she will need to look up and sideways to see.
+        </item>
+
+        <item>
+     Newborns need to sleep for about 16 hours a day in the first 2 months. They usually take naps that are 2 to 4 hours long and wake up if they are hungry or wet. As the baby needs to be fed every 3 hours, you may need to wake her and feed her. Do not worry in case she does not follow the ideal newborn sleep pattern. Every baby is different and has a different sleep cycle. You should also remember to alternate your baby’s head position while she is sleeping. This prevents the formation of flat spots on the head. Make sure you put the baby to sleep on her back to avoid suffocation. A mother should try to take naps along with the baby. She can also use the time to have a bath or eat a meal peacefully while her baby is asleep.
+    </item>
+        <item> Newborn nails grow very fast. The baby may scratch her own face or body with her hand movements. Hence, it is important to keep the baby’s nails trimmed. As the nails of a baby are soft, so use baby nail clippers. Try and trim the nails gently when the baby is asleep. Do not trim it too deeply as the nails are very tender and it could be painful for the baby. Do not trim the edges of the nails as this will cause ingrown nails. </item>
+    </string-array>
+
+
+    <string-array name="nbc">
+        <item>Feeding</item>
+        <item>Burping</item>
+        <item> How to Hold Your Newborn</item>
+        <item>Umbilical Cord Stump Care</item>
+        <item>Bathing</item>
+        <item>Massaging</item>
+        <item>Playing</item>
+        <item>Handling Your Newborn</item>
+        <item>Sleeping</item>
+        <item>Trimming Nails</item>
+
     </string-array>
 
 

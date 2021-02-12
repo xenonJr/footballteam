@@ -157,20 +157,33 @@
         app:layout_constraintTop_toBottomOf="@+id/contactDoctor" />
 
     <Button
-        android:id="@+id/newBorn"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/nbc"
+        android:layout_width="269dp"
+        android:layout_height="38dp"
         android:background="#FAF9F9"
         android:text="New Born Baby Care"
         android:textAllCaps="false"
         android:textStyle="bold"
-        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pregMotherCare"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/pmc"
+        android:layout_width="269dp"
+        android:layout_height="38dp"
+        android:background="#FAF9F9"
+        android:text="Pregnant Mother Care"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pregMotherCare"
+        app:layout_constraintVertical_bias="0.387" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
