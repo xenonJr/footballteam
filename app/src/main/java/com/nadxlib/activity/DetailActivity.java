@@ -77,7 +77,7 @@ public class DetailActivity extends AppCompatActivity implements SubscriptionSta
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(DetailActivity.this, WV.class);
-                intent.putExtra("name", babyTodd.getText().toString());
+                intent.putExtra("name", babyName.getText().toString());
                 intent.putExtra("url", "https://www.shutterfly.com/ideas/baby-name-generator/");
                 startActivity(intent);
             }

@@ -31,7 +31,7 @@
                 android:background="@color/mainBackground"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
-                android:text="@string/app_name"
+                android:text=""
                 android:textColor="@color/colorActivityBackground"
                 android:textSize="20sp" />
         </LinearLayout>
