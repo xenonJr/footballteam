@@ -12,7 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".NewBornCare"></activity>
+        <activity
+            android:name=".SymptomSearchResult"
+            android:exported="true" />
+        <activity
+            android:name=".SymptomsActivity"
+            android:exported="true" />
+        <activity android:name=".NewBornCare" />
         <activity android:name=".PMC" />
         <activity android:name=".DeiseasesActivity" />
         <activity android:name=".DoctorChats" />

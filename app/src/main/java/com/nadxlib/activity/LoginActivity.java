@@ -33,6 +33,10 @@ public class LoginActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         String tag = getIntent().getStringExtra("tag");
 
+        if(tag.equals("doc")){
+            sign.setVisibility(View.GONE);
+        }
+
 
         con.setOnClickListener(new View.OnClickListener() {
             @Override

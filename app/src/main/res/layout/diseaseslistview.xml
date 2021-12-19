@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
@@ -12,20 +15,33 @@
         android:padding="10dp"
         android:gravity="center"></TextView>
 
-    <ayalma.ir.expandablerecyclerview.ExpandableRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/purchase_list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="16dp"
-        app:layoutManager="LinearLayoutManager"
-        tools:context=".Ui.MainActivity"
-        tools:listitem="@layout/exr_group" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+            <ayalma.ir.expandablerecyclerview.ExpandableRecyclerView
+                android:id="@+id/purchase_list"
+                android:layout_width="376dp"
+                android:layout_height="604dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical"
+                app:layoutManager="LinearLayoutManager"
+                tools:context=".Ui.MainActivity"
+                tools:listitem="@layout/exr_group" />
+        </ScrollView>
+
+
+    <Button
+        android:id="@+id/symptomps"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Symptoms"
+        android:gravity="center">
+
+    </Button>
 
 
 </LinearLayout>
