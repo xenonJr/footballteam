@@ -13,6 +13,15 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RealAdminHomePage"
+            android:exported="true" />
+        <activity
+            android:name=".RealAdminLogin"
+            android:exported="true" />
+        <activity
             android:name=".SymptomSearchResult"
             android:exported="true" />
         <activity

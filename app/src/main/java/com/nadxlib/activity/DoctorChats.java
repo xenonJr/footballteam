@@ -58,6 +58,7 @@ public class DoctorChats extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseFirestore = FirebaseFirestore.getInstance();
         String me = getIntent().getStringExtra("tag");
+        Log.d("tag",me);
         documentReference = firebaseFirestore.collection(me).document(firebaseAuth.getCurrentUser().getUid());
         documentReference2 = firebaseFirestore.collection("chats").document(firebaseAuth.getCurrentUser().getUid());
         uiD = getIntent().getStringExtra("uid");
