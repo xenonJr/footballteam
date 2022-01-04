@@ -39,7 +39,7 @@
         android:layout_height="51dp"
         android:layout_marginBottom="28dp"
         android:gravity="center"
-        android:text="To communicate with a expert :"
+        android:text="To communicate with a expert (Dr Rahim Karim) :"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
