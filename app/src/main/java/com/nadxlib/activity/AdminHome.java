@@ -20,6 +20,14 @@ public class AdminHome extends AppCompatActivity {
         message = findViewById(R.id.message);
 
 
+        patientList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ListActivity.class);
+                intent.putExtra("tag","users");
+                startActivity(intent);
+            }
+        });
 
 
 

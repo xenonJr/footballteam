@@ -60,9 +60,10 @@ public class DoctorChats extends AppCompatActivity {
         String me = getIntent().getStringExtra("tag");
         Log.d("tag",me);
         documentReference = firebaseFirestore.collection(me).document(firebaseAuth.getCurrentUser().getUid());
+
         documentReference2 = firebaseFirestore.collection("chats").document(firebaseAuth.getCurrentUser().getUid());
         uiD = getIntent().getStringExtra("uid");
-
+        documentReference2 = firebaseFirestore.collection("users").document(uiD);
         currentDate = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());
         currentTime = new SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(new Date());
 
@@ -96,9 +97,21 @@ public class DoctorChats extends AppCompatActivity {
             public void onSuccess(DocumentSnapshot documentSnapshot) {
                 user[0] = documentSnapshot.toObject(Patient.class);
                 name = user[0].getFirstName()+ " "+ user[0].getLastName();
-                mail = user[0].getEmail();
             }
         });
+
+        final Patient[] user2 = new Patient[1];
+        documentReference2.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+            @Override
+            public void onSuccess(DocumentSnapshot documentSnapshot) {
+                user2[0] = documentSnapshot.toObject(Patient.class);
+                mail = user2[0].getEmail();
+            }
+        });
+
+
+
+
 
 
         UpdateChatList();
@@ -124,9 +137,8 @@ public class DoctorChats extends AppCompatActivity {
                         SingleChatMassage r = npsnapshot.getValue(SingleChatMassage.class);
                         l.add(r);
                         Log.d("msg",r.getMessage());
-
                     }
-//                    Log.d("msg after loop",l.get(2).getMessage());
+
                     myAdapter = new ChatAdapter(getApplicationContext(),l);
                     Log.d("msg","i am here");
                     Log.d("msg","L SIZE IS "+l.size());
